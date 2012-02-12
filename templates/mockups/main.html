@@ -1,4 +1,89 @@
 {% extends "base.html" %}
 {% block content %}
-hello world!
+<style type="text/css">
+    .profile{
+        padding-top:300px;
+        text-align:center;
+
+
+    }
+    .toprow{
+        margin-top:-20px;
+        margin-bottom:50px;
+        background-color:#000;
+        height:400px;
+        border-bottom:1px solid #e0e0e0;
+        background: #f2f2f2; /* Old browsers */
+background: -moz-linear-gradient(top, #f2f2f2 8%, #d8d8d8 85%, #ededed 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(8%,#f2f2f2), color-stop(85%,#d8d8d8), color-stop(99%,#ededed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f2f2f2 8%,#d8d8d8 85%,#ededed 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f2f2f2 8%,#d8d8d8 85%,#ededed 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f2f2f2 8%,#d8d8d8 85%,#ededed 99%); /* IE10+ */
+background: linear-gradient(top, #f2f2f2 8%,#d8d8d8 85%,#ededed 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+    }
+
+</style>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+
+            <a class="brand" href="#">codregion</a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li class="active"><a href="#">Home</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container, toprow">
+    <div class="row, profile">
+        <h1>Dedi Purwanto</h1>
+        <p>
+        HESCAR, Kuala Lumpur, Malaysia
+        </p>
+
+    </div>
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="span4">
+            <h2>My Projects</h2>
+            <p>
+            <strong><a href="#">codregion</a></strong><br />
+            A public profile for geeks to show things they built and their networks.
+            </p>
+        </div>
+        <div class="span4">
+            <h2>My Gears</h2>
+            <p>
+            <a href='#'>Python</a>
+            <a href='#'>Django</a>
+            <a href='#'>Postgres</a>
+            <a href='#'>Bootstrap</a>
+            <a href='#'>jQuery</a>
+            <a href='#'>Haystack</a>
+            <a href='#'>Webfaction</a>
+            </p>
+        </div>
+        <div class="span4">
+            <h2>My Networks</h2>
+            <p>
+            <a href="#">Google+</a>
+            <a href="#">Twitter</a>
+            <a href="#">GitHub</a>
+            <a href="#">Bitbucket</a>
+            <a href="#">Google Code</a>
+            <a href="#">Blog</a>
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
 {% endblock %}
